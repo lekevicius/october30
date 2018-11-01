@@ -13,7 +13,7 @@ October 30 is a macOS screen saver (requires El Capitan or later) that randomly 
 _(The GIF above is just for intro. Actually logos change smoothly and more slowly.)_
 
 ### Install
-* [**Download the Screen Saver**](Release/October30.saver.zip)
+* [**Download the Screen Saver**](https://github.com/lekevicius/october30/raw/master/Release/October30.saver.zip)
 * Open October30.saver
 * Choose to Install just for your own user or everyone using the Mac
 * Enjoy 🍎
