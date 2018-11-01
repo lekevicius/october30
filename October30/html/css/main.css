@@ -1,0 +1,43 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+::selection {
+	background: transparent;
+}
+
+body {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  user-select: none;
+}
+
+#container {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background: #f8f8f8;
+	overflow: hidden;
+}
+
+#container img,
+#container canvas {
+	display: block;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+}
+
+#container canvas {
+	transition: opacity 0.05s;
+}
+
+#container canvas.away {
+	opacity: 0;
+}
