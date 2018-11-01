@@ -14,7 +14,7 @@ _(The GIF above is just for intro. Actually logos change smoothly and more slowl
 
 ### Install
 * [**Download the Screen Saver**](https://github.com/lekevicius/october30/raw/master/Release/October30.saver.zip)
-* Open October30.saver
+* Right-click October30.saver and choose "Open" (otherwise macOS might not let you install it)
 * Choose to Install just for your own user or everyone using the Mac
 * Enjoy 🍎
 
