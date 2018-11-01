@@ -1,4 +1,4 @@
-![Screenshot](Release/screenshot.gif)
+<p align="center"><img src="Release/screenshot.gif" alt="Screenshot" width="600" /></p>
 
 # October 30 Screen Saver
 
