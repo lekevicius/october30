@@ -18,6 +18,16 @@ _(The GIF above is just for intro. Actually logos change smoothly and more slowl
 * Choose to Install just for your own user or everyone using the Mac
 * Enjoy 🍎
 
+### F.A.Q
+<details>
+  <summary>I am on MacOS 10+ and I get the error "October30.saver can't be opened because Apple cannot check it fot malicious software"</summary>
+    You have 2 ways:
+  <ol>
+    <li>go under System Preferences > Security & Privacy > General tab. In the lower area it will say that you can't open October30.saver because it's from an unidentified developer. Select "Open Anyway".</li>
+    <li>open your terminal and if you installed the screensaver only for your user give the command <pre>xattr -d com.apple.quarantine /Users/yourUsername/Library/Screen\ Savers/October30.saver</pre> If you installed it for all users, than give <pre>xattr -d com.apple.quarantine /Library/Screen\ Savers/October30.saver</pre></li>
+  </ol>
+</details>
+
 Created by Jonas Lekevicius. Follow me on [Twitter](https://twitter.com/lekevicius).
 
 _Not officially affiliated with Apple in any way._ Probably infringes on a bunch of copyrights. But it’s really cool stuff, so please maybe don’t DMCA C&D me. Anyways, better download this just in case, right?
